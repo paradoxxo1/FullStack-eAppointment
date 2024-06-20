@@ -15,3 +15,5 @@ D:\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\obj\Debug\n
 D:\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\obj\Debug\net8.0\eAppointmentServer.Infrastructure.pdb
 D:\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\obj\Debug\net8.0\eAppointmentServer.Infrastructure.genruntimeconfig.cache
 D:\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\obj\Debug\net8.0\ref\eAppointmentServer.Infrastructure.dll
+D:\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\bin\Debug\net8.0\eAppointmentServer.Application.dll
+D:\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\bin\Debug\net8.0\eAppointmentServer.Application.pdb
