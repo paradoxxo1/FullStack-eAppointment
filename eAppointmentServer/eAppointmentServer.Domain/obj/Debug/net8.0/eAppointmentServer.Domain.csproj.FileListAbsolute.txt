@@ -1,0 +1,5 @@
+D:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.csproj.AssemblyReference.cache
+D:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.AssemblyInfoInputs.cache
+D:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.AssemblyInfo.cs
+D:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.csproj.CoreCompileInputs.cache
