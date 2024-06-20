@@ -1,6 +1,7 @@
 using DefaultCorsPolicyNugetPackage;
 using eAppointmentServer.Application;
 using eAppointmentServer.Infrastructure;
+using eAppointmentServer.WebAPI;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,5 +29,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+Helper.CreateUserAsync(app).Wait();
 
 app.Run();
