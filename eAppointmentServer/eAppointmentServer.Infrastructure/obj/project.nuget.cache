@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rD9avTE4Iyn90walfSMFpp7/9DrrkLinLKg7m/LlIYDXmxdkYLkinngmTj9JxlqDkxB2RBCz7hlupBRj+X124w==",
+  "dgSpecHash": "MOYXRRT6UCqrPeRwJQZ0YXzTJPSS+030Qj2OYmHtlaj5VCemiXL2GSHD+k3Lb1VE7etvoyO/j4dhMe7kDQqd5g==",
   "success": true,
   "projectFilePath": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ParadoxXO\\.nuget\\packages\\ardalis.smartenum\\8.0.0\\ardalis.smartenum.8.0.0.nupkg.sha512",
+    "C:\\Users\\ParadoxXO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ParadoxXO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ParadoxXO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\ParadoxXO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -157,3 +157,4 @@ D:\eAppointment\eAppointmentServer\eAppointmentServer.WebAPI\obj\Debug\net8.0\eA
 D:\eAppointment\eAppointmentServer\eAppointmentServer.WebAPI\obj\Debug\net8.0\ref\eAppointmentServer.WebAPI.dll
 D:\eAppointment\eAppointmentServer\eAppointmentServer.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\eAppointment\eAppointmentServer\eAppointmentServer.WebAPI\bin\Debug\net8.0\DefaultCorsPolicyNugetPackage.dll
+D:\eAppointment\eAppointmentServer\eAppointmentServer.WebAPI\bin\Debug\net8.0\AutoMapper.dll

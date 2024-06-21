@@ -4,7 +4,7 @@ namespace eAppointmentServer.Domain.Enums;
 public sealed class DepartmentEnum : SmartEnum<DepartmentEnum>
 {
     public static readonly DepartmentEnum Acil = new("Acil", 1);
-    public static readonly DepartmentEnum Radyoloji = new("Acil", 2);
+    public static readonly DepartmentEnum Radyoloji = new("Radyoloji", 2);
     public static readonly DepartmentEnum Kardioloji = new("Kardioloji", 3);
     public static readonly DepartmentEnum Dermatoloji = new("Dermatoloji", 4);
     public static readonly DepartmentEnum Endokrinoloji = new("Endokrinoloji", 5);
