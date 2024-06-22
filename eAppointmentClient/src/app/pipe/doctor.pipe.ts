@@ -8,12 +8,12 @@ import { DoctorModel } from '../models/doctor.model';
 export class DoctorPipe implements PipeTransform {
 
   transform(value: DoctorModel[], search: string): DoctorModel[] {
-    if (!search) {
+    if(!search){
       return value;
     }
 
     return value.filter(p=>
-      p.fullName.toLocaleLowerCase().includes(search.toLocaleLowerCase()) || 
+      p.fullName.toLocaleLowerCase().includes(search.toLocaleLowerCase()) ||
       p.department.name.toLocaleLowerCase().includes(search.toLocaleLowerCase())
     )
   }

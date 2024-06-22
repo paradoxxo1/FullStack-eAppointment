@@ -8,7 +8,7 @@ export class SwalService {
 
   constructor() { }
 
-  callToast(title: string, icon: SweetAlertIcon = "success") {
+  callToast(title: string, icon: SweetAlertIcon = "success"){
     Swal.fire({
       title: title,
       timer: 3000,
@@ -21,25 +21,21 @@ export class SwalService {
     });
   }
 
-  callSwal(title: string, text: string, callBack: ()=> void) {
+  callSwal(title: string,text: string, callBack: ()=> void){
     Swal.fire({
       title: title,
       text: text,
-      icon: 'question',
+      icon: "question",
       showConfirmButton: true,
       confirmButtonText: "Delete",
       showCancelButton: true,
       cancelButtonText: "Cancel"
-    }).then(res =>{
+    }).then(res=> {
       if(res.isConfirmed){
         callBack();
       }
     });
-
-
   }
-
 }
-
 
 export type SweetAlertIcon = 'success' | 'error' | 'warning' | 'info' | 'question'

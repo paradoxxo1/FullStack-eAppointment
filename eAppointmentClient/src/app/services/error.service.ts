@@ -11,22 +11,20 @@ export class ErrorService {
     private swal: SwalService
   ) { }
 
-  errorHandler(err: HttpErrorResponse) {
+  errorHandler(err: HttpErrorResponse){
     console.log(err);
     let message = "Error!";
-    if (err.status === 0) {
-      message = "API is not avaible...";
-    } else if (err.status === 404) {
-      message = "API is not avaible...";
-    }else if (err.status === 500) {
+    if(err.status === 0){
+      message = "API is not available";
+    }else if(err.status === 404){
+      message = "API not found";
+    }else if(err.status === 500){
       message = "";
       for(const e of err.error.errorMessages){
-        message + "/n";
+        message += e + "\n";
       }
-    }else if (err.status === 402) {}
+    }
 
-
-    this.swal.callToast(message, "error");
-
+    this.swal.callToast(message,"error");
   }
 }
