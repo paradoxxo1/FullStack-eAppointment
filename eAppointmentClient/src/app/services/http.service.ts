@@ -2,7 +2,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { ResultModel } from '../models/result.model';
 import { ErrorService } from './error.service';
-import { api } from '../constans';
+import { api } from '../constants';
 
 @Injectable({
   providedIn: 'root'
