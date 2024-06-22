@@ -183,7 +183,7 @@ namespace eAppointmentServer.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(50)");
 
-                    b.Property<string>("FullAdress")
+                    b.Property<string>("FullAddress")
                         .IsRequired()
                         .HasColumnType("varchar(400)");
 

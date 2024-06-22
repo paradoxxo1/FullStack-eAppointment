@@ -12,7 +12,7 @@ internal sealed class PatientConfiguration : IEntityTypeConfiguration<Patient>
         builder.Property(p => p.LastName).HasColumnType("varchar(50)");
         builder.Property(p => p.City).HasColumnType("varchar(50)");
         builder.Property(p => p.Town).HasColumnType("varchar(50)");
-        builder.Property(p => p.FullAdress).HasColumnType("varchar(400)");
+        builder.Property(p => p.FullAddress).HasColumnType("varchar(400)");
         builder.Property(p => p.IdentityNumber).HasColumnType("varchar(11)");
         builder.HasIndex(x => x.IdentityNumber).IsUnique();
     }
