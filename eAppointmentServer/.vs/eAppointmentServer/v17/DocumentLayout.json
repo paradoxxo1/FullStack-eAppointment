@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "D:\\eAppointment\\eAppointmentServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\getalldoctorbydepartment\\getalldoctorsbydepartmentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\getalldoctorbydepartment\\getalldoctorsbydepartmentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\createappointment\\createappointmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\createappointment\\createappointmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33AE5A4E-3ECA-42AD-8D98-E44428EB5A6A}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.webapi\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33AE5A4E-3ECA-42AD-8D98-E44428EB5A6A}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|solutionrelative:eappointmentserver.webapi\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\doctors\\getalldoctors\\getalldoctorsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\doctors\\getalldoctors\\getalldoctorsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\doctors\\getalldoctors\\getalldoctorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\doctors\\getalldoctors\\getalldoctorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\getalldoctorbydepartment\\getalldoctorsbydepartmentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\getalldoctorbydepartment\\getalldoctorsbydepartmentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\auth\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\auth\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|d:\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\createappointment\\createappointmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2980422-FD18-464E-8D9B-6D390C02E144}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\createappointment\\createappointmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,119 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllDoctorsQuery.cs",
-              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Doctors\\GetAllDoctors\\GetAllDoctorsQuery.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Doctors\\GetAllDoctors\\GetAllDoctorsQuery.cs",
-              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Doctors\\GetAllDoctors\\GetAllDoctorsQuery.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Doctors\\GetAllDoctors\\GetAllDoctorsQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABLAAAA",
+              "DocumentIndex": 1,
+              "Title": "CreateAppointmentCommand.cs",
+              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\CreateAppointment\\CreateAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\CreateAppointment\\CreateAppointmentCommand.cs",
+              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\CreateAppointment\\CreateAppointmentCommand.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\CreateAppointment\\CreateAppointmentCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:08:40.58Z",
+              "WhenOpened": "2024-06-23T09:40:15.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetAllDoctorsByDepartmentQueryHandler.cs",
-              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllDoctorByDepartment\\GetAllDoctorsByDepartmentQueryHandler.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\GetAllDoctorByDepartment\\GetAllDoctorsByDepartmentQueryHandler.cs",
-              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllDoctorByDepartment\\GetAllDoctorsByDepartmentQueryHandler.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\GetAllDoctorByDepartment\\GetAllDoctorsByDepartmentQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Title": "CreateAppointmentCommandHandler.cs",
+              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\CreateAppointment\\CreateAppointmentCommandHandler.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\CreateAppointment\\CreateAppointmentCommandHandler.cs",
+              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\CreateAppointment\\CreateAppointmentCommandHandler.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\CreateAppointment\\CreateAppointmentCommandHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:08:25.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetAllDoctorsByDepartmentQuery.cs",
-              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllDoctorByDepartment\\GetAllDoctorsByDepartmentQuery.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\GetAllDoctorByDepartment\\GetAllDoctorsByDepartmentQuery.cs",
-              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllDoctorByDepartment\\GetAllDoctorsByDepartmentQuery.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\GetAllDoctorByDepartment\\GetAllDoctorsByDepartmentQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:08:00.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppointmentsController.cs",
-              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Controllers\\AppointmentsController.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\Controllers\\AppointmentsController.cs",
-              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Controllers\\AppointmentsController.cs",
-              "RelativeToolTip": "eAppointmentServer.WebAPI\\Controllers\\AppointmentsController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:54:52.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetAllDoctorsQueryHandler.cs",
-              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Doctors\\GetAllDoctors\\GetAllDoctorsQueryHandler.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Doctors\\GetAllDoctors\\GetAllDoctorsQueryHandler.cs",
-              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Doctors\\GetAllDoctors\\GetAllDoctorsQueryHandler.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Doctors\\GetAllDoctors\\GetAllDoctorsQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:08:42.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginCommandResponse.cs",
-              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
-              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:06:28.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetAllAppointmentsByDoctorIdQueryResponse.cs",
-              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryResponse.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryResponse.cs",
-              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryResponse.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:52:45.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetAllAppointmentsByDoctorIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryHandler.cs",
-              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryHandler.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:52:36.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetAllAppointmentsByDoctorIdQuery.cs",
-              "DocumentMoniker": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQuery.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQuery.cs",
-              "ToolTip": "D:\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQuery.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:52:28.03Z",
+              "WhenOpened": "2024-06-23T09:40:02.645Z",
               "EditorCaption": ""
             }
           ]
