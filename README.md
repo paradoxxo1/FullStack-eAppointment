@@ -99,7 +99,7 @@ To contribute, please create a `fork`, create a new `branch` (`feature-name`), m
 
 ## License
 
-This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
+This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.  
 If you found this project useful, please give it a star! ⭐
 
 
