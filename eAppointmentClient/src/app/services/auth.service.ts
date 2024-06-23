@@ -7,7 +7,7 @@ import { JwtPayload, jwtDecode } from 'jwt-decode';
   providedIn: 'root'
 })
 export class AuthService {
-  tokenDecode : TokenModel = new TokenModel();
+  tokenDecode: TokenModel = new TokenModel();
 
   constructor(
     private router: Router
@@ -16,12 +16,12 @@ export class AuthService {
   isAuthenticated() {
     const token: string | null = localStorage.getItem("token");
 
-    if (token) { 
+    if (token) {
       const decode: JwtPayload | any = jwtDecode(token);
       const exp = decode.exp;
       const now = new Date().getTime() / 1000;
 
-      if(now > exp){
+      if (now > exp) {
         localStorage.removeItem("token");
         this.router.navigateByUrl("/login");
         return false;
@@ -31,7 +31,8 @@ export class AuthService {
       this.tokenDecode.name = decode["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"];
       this.tokenDecode.email = decode["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"];
       this.tokenDecode.userName = decode["UserName"];
-      
+      this.tokenDecode.roles = JSON.parse(decode["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"]);
+
       return true;
     }
 
