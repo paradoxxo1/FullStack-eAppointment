@@ -62,8 +62,8 @@ export class HomeComponent {
   onAppointmentFormOpening(e: any) {
     e.cancel = true;
 
-    this.createModel.startDate = this.date.transform(e.appointmentData.startDate, "MM.dd.yyyy HH:mm") ?? "";
-    this.createModel.endDate = this.date.transform(e.appointmentData.endDate, "MM.dd.yyyy HH:mm") ?? "";
+    this.createModel.startDate = this.date.transform(e.appointmentData.startDate, "dd.MM.yyyy HH:mm") ?? "";
+    this.createModel.endDate = this.date.transform(e.appointmentData.endDate, "dd.MM.yyyy HH:mm") ?? "";
     this.createModel.doctorId = this.selectedDoctorId;
 
     $("#addModal").modal("show");
