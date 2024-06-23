@@ -72,6 +72,16 @@ This project is an eAppointment application developed using Angular 17 and .NET 
    The application will run at `http://localhost:4200`.
 
 ## Usage
+![3](https://github.com/paradoxxo1/FullStack-eAppointment/assets/124463263/69369961-5d8d-4265-9654-c196b7265987)
+![1](https://github.com/paradoxxo1/FullStack-eAppointment/assets/124463263/dde4d840-2e46-4ac0-9548-52dc3e04afd5)
+![2](https://github.com/paradoxxo1/FullStack-eAppointment/assets/124463263/f52579ec-9733-4dc0-9d9c-d595dae510f1)
+![1-1](https://github.com/paradoxxo1/FullStack-eAppointment/assets/124463263/065a0c10-3418-4a9f-b57f-75af8d07e094)
+![1-2](https://github.com/paradoxxo1/FullStack-eAppointment/assets/124463263/46915e75-89c4-4c99-ac05-871930b49b31)
+![4](https://github.com/paradoxxo1/FullStack-eAppointment/assets/124463263/c3f68140-f3cb-45a0-bd4d-3d03b0b98e66)
+![5](https://github.com/paradoxxo1/FullStack-eAppointment/assets/124463263/e6d3208c-f9bb-4c0e-8213-d70fc522640e)
+![6](https://github.com/paradoxxo1/FullStack-eAppointment/assets/124463263/be8ed8d2-2e8d-4304-b9d0-c0ff8f20d132)
+![7](https://github.com/paradoxxo1/FullStack-eAppointment/assets/124463263/e4c04123-f0ed-4a2c-b837-33ee16f78762)
+
 
 ### Backend
 
