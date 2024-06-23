@@ -17,7 +17,7 @@ import { RoleModel } from '../../models/role.model';
   styleUrl: './users.component.css'
 })
 export class UsersComponent {
-  users: UserModel[] = [];  
+  users: UserModel[] = [];
   roles: RoleModel[] = [];
 
   @ViewChild("addModalCloseBtn") addModalCloseBtn: ElementRef<HTMLButtonElement> | undefined;
@@ -31,22 +31,29 @@ export class UsersComponent {
   constructor(
     private http: HttpService,
     private swal: SwalService
-  ){}
+  ) { }
 
   ngOnInit(): void {
     this.getAll();
+    this.getAllRoles();
   }
 
-  getAll(){
-    this.http.post<UserModel[]>("Users/GetAll", {}, (res)=> {
+  getAll() {
+    this.http.post<UserModel[]>("Users/GetAll", {}, (res) => {
       this.users = res.data;
     });
   }
-  
-  add(form: NgForm){
-    if(form.valid){
-      this.http.post<string>("Users/Create",this.createModel,(res)=> {
-        this.swal.callToast(res.data,"success");
+
+  getAllRoles() {
+    this.http.post<RoleModel[]>("Users/GetAllRoles", {}, res => {
+      this.roles = res.data;
+    })
+  }
+
+  add(form: NgForm) {
+    if (form.valid) {
+      this.http.post<string>("Users/Create", this.createModel, (res) => {
+        this.swal.callToast(res.data, "success");
         this.getAll();
         this.addModalCloseBtn?.nativeElement.click();
         this.createModel = new UserModel();
@@ -54,25 +61,25 @@ export class UsersComponent {
     }
   }
 
-  delete(id: string, fullName: string){
-    this.swal.callSwal("Delete User?",`You want to delete ${fullName}?`,()=> {
-      this.http.post<string>("Users/DeleteById", {id: id}, (res)=> {
-        this.swal.callToast(res.data,"info");
+  delete(id: string, fullName: string) {
+    this.swal.callSwal("Delete User?", `You want to delete ${fullName}?`, () => {
+      this.http.post<string>("Users/DeleteById", { id: id }, (res) => {
+        this.swal.callToast(res.data, "info");
         this.getAll();
       })
     })
   }
 
-  get(data: UserModel){    
-    this.updateModel = {...data};    
+  get(data: UserModel) {
+    this.updateModel = { ...data };
   }
 
-  update(form:NgForm){
-    if(form.valid){
-      this.http.post<string>("Users/Update",this.updateModel,(res)=> {
-        this.swal.callToast(res.data,"success");
+  update(form: NgForm) {
+    if (form.valid) {
+      this.http.post<string>("Users/Update", this.updateModel, (res) => {
+        this.swal.callToast(res.data, "success");
         this.getAll();
-        this.updateModalCloseBtn?.nativeElement.click();        
+        this.updateModalCloseBtn?.nativeElement.click();
       });
     }
   }

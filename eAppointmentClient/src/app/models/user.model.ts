@@ -7,5 +7,6 @@ export class UserModel {
     email: string = "";
     password: string = "";
     roleIds: string[] = [];
+    roleNames: string[] = [];
 
 }
