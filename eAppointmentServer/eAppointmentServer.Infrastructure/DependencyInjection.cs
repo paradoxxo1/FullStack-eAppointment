@@ -9,7 +9,9 @@ using Scrutor;
 namespace eAppointmentServer.Infrastructure;
 public static class DependencyInjection
 {
-    public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddInfrastructure(
+        this IServiceCollection services,
+        IConfiguration configuration)
     {
         services.AddDbContext<ApplicationDbContext>(options =>
         {
@@ -19,11 +21,10 @@ public static class DependencyInjection
         services.AddIdentity<AppUser, AppRole>(action =>
         {
             action.Password.RequiredLength = 1;
-            action.Password.RequireLowercase = false;
             action.Password.RequireUppercase = false;
+            action.Password.RequireLowercase = false;
             action.Password.RequireNonAlphanumeric = false;
             action.Password.RequireDigit = false;
-
         }).AddEntityFrameworkStores<ApplicationDbContext>();
 
         services.AddScoped<IUnitOfWork>(srv => srv.GetRequiredService<ApplicationDbContext>());
